@@ -5,7 +5,7 @@ import { ImAttachment } from "react-icons/im";
 import { styles } from "./ChatingStyles"
 import { Bolt, CalendarMonth, Close, LinkedIn, MoreHoriz, SentimentSatisfiedAlt, Star, StarOutline, TripOrigin } from "@mui/icons-material"
 import { useState } from "react";
-import EmojiPicker from 'emoji-picker-react';
+// import EmojiPicker from 'emoji-picker-react';
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../redux/store/Store";
 import { isFavoriteChatUser } from "../../../redux/reducers/slice/Slice";
